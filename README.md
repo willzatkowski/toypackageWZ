@@ -3,7 +3,7 @@
 
 **NOTE: This is a toy package created for expository purposes.**
 
-# toypackageAC
+# toypackageWZ
 
 <!-- badges: start -->
 
