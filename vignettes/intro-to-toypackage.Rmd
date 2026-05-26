@@ -1,0 +1,36 @@
+---
+title: "Introduction to toypackage"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to toypackage}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+The `toypackageWZ` provides convenience functions for some common tasks. To install this package from GitHub, use
+
+```{r, eval=FALSE}
+# install.packages("remotes")
+# install.packages("devtools")
+devtools::install_github("abhicc/toypackageWZ")
+```
+
+Load the package using the following code.
+
+```{r setup}
+library(toypackageWZ)
+```
+
+The package contains three functions
+
+* `strsplit1`
+
+* `min_max_scale`
+* `theme_academic`
